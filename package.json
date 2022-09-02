@@ -1,0 +1,26 @@
+{
+  "name": "basic-http-fin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src/ --fix",
+    "test": "echo \"Test complete \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinrocksuper/basic-http-fin.git"
+  },
+  "author": "Vincent Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinrocksuper/basic-http-fin/issues"
+  },
+  "homepage": "https://github.com/vinrocksuper/basic-http-fin#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
